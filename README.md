@@ -4,7 +4,7 @@ A modern, fast, and completely standalone Python/PyQt6 wrapper for the Datto (Gi
 
 This project was built to bypass the frustration of legacy `DATTO_IPMI.jnlp` files. Instead of endlessly installing old versions of Java, struggling with security exceptions, or waiting for clunky browser downloads, this wrapper completely automates the connection securely and perfectly embeds the KVM display within a beautiful native dark-mode window.
 
-![Datto KVM Wrapper Viewer Demo](https://via.placeholder.com/800x600.png?text=Datto+KVM+Wrapper+Screenshot)
+![Datto KVM Wrapper Viewer Demo](screenshot.png)
 
 ## Features
 - **Zero Dependencies**: Bypasses the need for system Java. A portable OpenJDK 8 JRE is completely bundled inside the app folder, letting you run it strictly offline/air-gapped.
