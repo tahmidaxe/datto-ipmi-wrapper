@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp codebase="https://192.168.0.5:443/" spec="1.0+">
+<information>
+  <title>Virtual KVM Client</title>
+  <vendor>Avocent Corporation</vendor>
+   <icon href="https://192.168.0.5:443/images/logo.gif" kind="splash"/>
+   <shortcut online="true"/>
+ </information>
+ <application-desc main-class="com.avocent.kvm.client.Main">
+   <argument>title=- 192.168.0.5</argument>
+   <argument>ip=192.168.0.5</argument>
+   <argument>platform=ast2400</argument>
+   <argument>vmprivilege=true</argument>
+   <argument>user=admin</argument>
+   <argument>passwd=ismail1000</argument>
+   <argument>kmport=2068</argument>
+   <argument>vport=2068</argument>
+   <argument>apcp=1</argument>
+   <argument>version=2</argument>
+   <argument>platform=ASPEED</argument>
+   <argument>color=0</argument>
+   <argument>chat=1</argument>
+   <argument>softkeys=1</argument>
+   <argument>statusbar=ip,un,fr,bw,kp,led</argument>
+   <argument>power=1</argument>
+   <argument>language=en</argument>
+ </application-desc>
+ <security>
+   <all-permissions/>
+ </security>
+ <resources>
+   <j2se version="1.6 1.5 1.4+"/>
+   <jar href="https://192.168.0.5:443/software/avctKVM.jar" download="eager" main="true" />
+ </resources>
+ <resources os="Windows" arch="x86">
+   <nativelib href="https://192.168.0.5:443/software/avctKVMIOWin32.jar" download="eager"/>
+ </resources>
+ <resources os="Windows" arch="amd64">
+   <nativelib href="https://192.168.0.5:443/software/avctKVMIOWin64.jar" download="eager"/>
+ </resources>
+ <resources os="Windows" arch="x86_64">
+   <nativelib href="https://192.168.0.5:443/software/avctKVMIOWin64.jar" download="eager"/>
+ </resources>
+ <resources os="Linux" arch="x86">
+   <nativelib href="https://192.168.0.5:443/software/avctKVMIOLinux32.jar" download="eager"/>
+ </resources>
+ <resources os="Linux" arch="i386">
+   <nativelib href="https://192.168.0.5:443/software/avctKVMIOLinux32.jar" download="eager"/>
+ </resources>
+ <resources os="Linux" arch="i586">
+   <nativelib href="https://192.168.0.5:443/software/avctKVMIOLinux32.jar" download="eager"/>
+ </resources>
+ <resources os="Linux" arch="i686">
+   <nativelib href="https://192.168.0.5:443/software/avctKVMIOLinux32.jar" download="eager"/>
+ </resources>
+ <resources os="Linux" arch="amd64">
+   <nativelib href="https://192.168.0.5:443/software/avctKVMIOLinux64.jar" download="eager"/>
+ </resources>
+ <resources os="Linux" arch="x86_64">
+   <nativelib href="https://192.168.0.5:443/software/avctKVMIOLinux64.jar" download="eager"/>
+ </resources>
+ <resources os="Mac OS X" arch="x86_64">
+   <nativelib href="https://192.168.0.5:443/software/avctKVMIOMac64.jar" download="eager"/>
+ </resources>
+</jnlp>

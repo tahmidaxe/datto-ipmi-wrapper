@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+venv/
+env/
+
+# PyInstaller Build Artifacts
+build/
+dist/
+*.spec
+Datto_IPMI_Launcher/
+Datto_IPMI_Launcher.zip
+
+# Temporary App Files & Configs
+config.json
+
+# Datto KVM Downloaded Libraries
+jre/
+jre.zip
+avctKVM.jar
+avctKVMIOWin*.jar
+avctKVMIOLinux*.jar
+avctKVMIOMac*.jar
+*.dll
+*.so
+*.jnilib
+
+# IDEs
+.vscode/
+.idea/
